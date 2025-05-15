@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>bk", vim.cmd.Ex)
-vim.keymap.set("n", "asd", ":w")
+vim.keymap.set("n", "zxc", ":w")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -28,11 +28,12 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set({ "n", "v" }, "<leader>d", "\"_d")
 
 -- This is going to get me cancelled
-vim.keymap.set("i", "<C-c>", "<Esc>")
-vim.keymap.set("i", "<C-c>", "<Esc>")
+-- vim.keymap.set("i", "<C-c>", "<Esc>")
+vim.keymap.set("i", "qw", "<Esc>")
+
 
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww ~/dotfiles/tmux-sessionizer<CR>")
 -- vim.keymap.set("n", "<leader>f", function()
 --     require("conform").format({ bufnr = 0 })
 -- end)

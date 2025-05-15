@@ -207,9 +207,7 @@ return {
 
     end
 }
-
-
--- return   {
+-- return {
 --     -- Main LSP Configuration
 --     'neovim/nvim-lspconfig',
 --     dependencies = {
