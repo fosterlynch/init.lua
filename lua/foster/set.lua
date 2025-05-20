@@ -1,4 +1,10 @@
--- vim.opt.guicursor = ""
+vim.opt.guicursor = ""
+vim.o.guicursor = 'n-v-c:block-Cursor,i-ci-ve:ver25-Cursor2,r-cr-o:hor20'
+
+vim.api.nvim_set_hl(0, "Cursor2", { fg = "#F28C28", bg = "#F28C28" })
+vim.api.nvim_set_hl(0, "Cursor", { fg = "#CC5500", bg = "#CC5500" })
+
+
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
